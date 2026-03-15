@@ -520,9 +520,9 @@ wx.onTouchStart(() => {
 ```
 my-minigame/
 ├── game.json              # 游戏配置
+├── game.js                # 入口文件
 ├── project.config.json    # 项目配置
 ├── js/
-│   ├── main.js           # 入口文件
 │   ├── Game.js           # 游戏主类
 │   ├── scenes/           # 场景
 │   │   ├── MenuScene.js
