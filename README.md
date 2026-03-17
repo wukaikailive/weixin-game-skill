@@ -24,7 +24,7 @@ cd your-minigame-project
 mkdir -p .claude/skills
 
 # 下载 skill 文件
-curl -o .claude/skills/weixin-game.md https://raw.githubusercontent.com/your-username/weixin-game-skill/main/skill.md
+curl -o .claude/skills/weixin-game.md https://raw.githubusercontent.com/wukaikailive/weixin-game-skill/main/skill.md
 ```
 
 或者手动创建文件：
@@ -43,18 +43,18 @@ mkdir -p .claude/skills
 ```bash
 # macOS/Linux
 mkdir -p ~/.claude/skills
-curl -o ~/.claude/skills/weixin-game.md https://raw.githubusercontent.com/your-username/weixin-game-skill/main/skill.md
+curl -o ~/.claude/skills/weixin-game.md https://raw.githubusercontent.com/wukaikailive/weixin-game-skill/main/skill.md
 
 # Windows (PowerShell)
 New-Item -ItemType Directory -Force -Path "$env:USERPROFILE\.claude\skills"
-Invoke-WebRequest -Uri "https://raw.githubusercontent.com/your-username/weixin-game-skill/main/skill.md" -OutFile "$env:USERPROFILE\.claude\skills\weixin-game.md"
+Invoke-WebRequest -Uri "https://raw.githubusercontent.com/wukaikailive/weixin-game-skill/main/skill.md" -OutFile "$env:USERPROFILE\.claude\skills\weixin-game.md"
 ```
 
 ### 方法三：克隆完整仓库
 
 ```bash
 # 克隆仓库
-git clone https://github.com/your-username/weixin-game-skill.git
+git clone https://github.com/wukaikailive/weixin-game-skill.git
 
 # 复制 skill 到项目
 cp weixin-game-skill/skill.md your-project/.claude/skills/weixin-game.md
